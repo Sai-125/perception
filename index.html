@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- css link -->
+     <link rel="stylesheet" href="./style.css">
+
+     <!-- font awesome cdn linking -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- box icons linking -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+     <!-- aos animation cdn -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+
+    <header>
+        <div class="header_main ">
+        <nav class="navbar d-flex align-items-center">
+            <div class="logo">
+                <img src="https://monolit.kwst.net/site/images/logo.png" alt="">
+            </div>
+            <ul class="links d-flex align-items-center ">
+                <li><a href="#home"  class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#works" class="nav-link">Works</a></li>
+                <li><a href="#Skills" class="nav-link">Skills</a></li>
+                <li><a href="#Teams" class="nav-link">Team</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contacts</a></li>
+                <!-- <li><a href="">Blog</a></li> -->
+            </ul>
+        </nav>
+
+        <div class=" btns d-flex align-items-center">
+            <div class="menu">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="link_btn">
+                <i class='bx bx-link-alt' id="link_btn"></i>
+            </div>
+        </div>
+    </div>
+
+    <ul class="side_social" id="side_social">
+        <li><a href="">FACEBOOK</a></li>
+        <li><a href="">PINTERST</a></li>
+        <li><a href="">TWITTER</a></li>
+        <li><a href="">LINKEDIN</a></li>
+        <li><a href="">TUMBLUR</a></li>
+    </ul>
+
+    <div class="side_links">
+        <ul class="rotate_links">
+            <li><a href="" style="color: #fff;text-transform: uppercase;" id="active-section" >HOME</a></li>
+            <!-- <li><a href="">ABOUT</a></li> -->
+        </ul>
+        <div class="side_social_links">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-skype"></i></a>
+        </div>
+    </div>
+
+  
+
+
+    </header>
+
+
+    <!-- home -->
+
+    <section id="home">
+        <div class="home_txt">
+            <h1>PERCEPTION DESIGN STUDIO</h1>
+            <p>ARCHITECTURE</p>
+
+            <a href="#about"><button><i class="fa-solid fa-chevron-down"></i></button></i></a>
+        </div>
+    </section>
+
+    <section id="about" data-aos="fade-up" class="about">
+        <div class="about_sub">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade-in">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://monolit.kwst.net/site/images/folio/slider/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://monolit.kwst.net/site/images/folio/slider/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://monolit.kwst.net/site/images/folio/slider/1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden change_btns">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden change_btns">Next</span>
+                </button>
+              </div>
+
+              <div class=" abt_txt_main" data-aos="fade-up">
+                <div class="abt_head">
+                    <h1 class="text-uppercase">Bringing Your Dream Spaces 
+                      <span>to Life</span></h1>
+                    <p>Welcome to Perception Design Studio! We endeavor to convert your dream into
+                      reality with beautiful and workable designs. Be it a cozy home, an urban workplace,
+                      or an outdoor serene retreat, we amalgamate creativity with precision to bring you a
+                      design that fits your lifestyle. Let us work hand-in-hand to build a space that is yours
+                      alone, where many years of joy will be spent.
+                      </p>
+                    <!-- <p class="abt_p">Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations. All our projects incorporate a unique artistic image and functional solutions. Client is the soul of the project. Our main goal is to illustrate his/hers values and individuality through design.</p> -->
+
+                </div>
+                <div class="abt_txt ">
+                  <div class="">
+                  <h4>Our process</h4>
+                  <div class=" num_flex d-flex  justify-content-between">
+                  <div class="">
+                  <div class="h_line_txt d-flex align-items-center gap-4 mt-5">
+                    <small class="d-flex align-items-center gap-4"><span class="line">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>IDEA & START</small>
+                    <small class="d-flex align-items-center gap-4"><span class="line">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>DESIGN & CREATE</small>
+                    <small class="d-flex align-items-center gap-4"><span class="line">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>BUILD & FINISH</small>
+                    
+                  </div>
+                  <a class="animated-button">View Project</a>
+                  </div>
+
+
+                  <div class="abt_num">
+                    <h1 class="" data-aos="slide-up"><span class="zero">0 <small>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;
+                      <span>&dot;</span></small></span>1</h1>
+                  </div>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="interst_facts counts-section" data-aos="fade-in" id="interest">
+      <div class="int_sub">
+        <div class="int_head" data-aos="fade-right">
+          <h1 class="d-flex gap-2">SOME <span> INTERISTING</span></h1>
+          <h2>FACTS</h2>
+        </div>
+        <div class="int_txt">
+          <p data-aos="fade-right">Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations. All our projects incorporate a unique artistic image and functional solutions. Client is the soul of the project. Our main goal is to illustrate his/hers values and individuality through design.</p>
+
+        <div class="int_count count-section" id="countSection">
+          <h1 data-aos="slide-up"><span>0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>2</h1>
+          <div class="int_count_txt count text-center">
+            <h2 data-target="461" class="counter">0</h2>
+            <p>Finished projects</p>
+          </div>
+          <div class="int_count_txt count text-center">
+            <h2 data-target="168" class="counter">0</h2>
+            <p>Happy customers</p>
+          </div>
+          <div class="int_count_txt count text-center">
+            <h2 data-target="222" class="counter">0</h2>
+            <p>Working hours</p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="works" class="feauterd pad" data-aos="fade-up" >
+      <div class="">
+        <div class="fea_head" data-aos="fade-right">
+          <h1>OUR FEATURED <span>WORKS</span></h1>
+        </div>
+
+        <div class="fea_cont">
+
+          <div class="fe_cont_sub" data-aos="fade-right">
+            <div class="h_line_txt h_line_txt_2 d-flex align-items-center gap-4 mt-5">
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>HOUSES</small>
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>DESIGN</small>
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>SKYSCRAPPER</small>
+            </div>
+            <div class="feau_txt ">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/14.jpg" alt="" class="feaImageOne" >
+            <video src="./Video//20240220-Walkthrough(compressed).mp4" controls muted autoplay class="feaVideoOne"></video>
+
+            <div class="feau_txt_sub feau_txt_parl feau_txt_one" data-aos="fade-left">
+              <h1>SED UT PERSPICIATIS</h1>
+              <h2>UNDE THIS</h2>
+              <span href="" class="animated-button" onclick="viewVideo()">VIEW PROJECT</span>
+            </div>
+            </div>
+          </div>
+
+
+
+          <div class="fe_cont_sub fe_cont_sub_2" data-aos="fade-right">
+            <div class="h_line_txt h_line_txt_2 d-flex align-items-center gap-4 mt-5">
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>HOUSES</small>
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>DESIGN</small>
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>SKYSCRAPPER</small>
+            </div>
+            <div class="feau_txt">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/17.jpg" alt="">
+
+            <div class=" feau_txt_sub_2 feau_txt_parl" data-aos="fade-left">
+              <h1>SED UT PERSPICIATIS</h1>
+              <h2>UNDE THIS</h2>
+              <a href="" class="animated-button">VIEW PROJECT</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="feau_exp_pro">
+            <div class="fe_cont_sub" data-aos="fade-right">
+              <div class="h_line_txt h_line_txt_2 d-flex align-items-center gap-4 mt-5">
+                <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>HOUSES</small>
+                <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>DESIGN</small>
+                <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>SKYSCRAPPER</small>
+              </div>
+              <div class="feau_txt">
+              <img src="./Images/101.jpg" alt="">
+  
+              <div class="feau_txt_sub feau_txt_parl" data-aos="fade-left">
+                <h1>SED UT PERSPICIATIS</h1>
+                <h2>UNDE THIS</h2>
+                <a href="" class="animated-button">VIEW PROJECT</a>
+              </div>
+              </div>
+            </div>
+  
+  
+  
+            <div class="fe_cont_sub fe_cont_sub_2" data-aos="fade-right">
+              <div class="h_line_txt h_line_txt_2 d-flex align-items-center gap-4 mt-5">
+                <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>HOUSES</small>
+                <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>DESIGN</small>
+                <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>SKYSCRAPPER</small>
+              </div>
+              <div class="feau_txt">
+              <img src="./Images/102.jpg" alt="">
+  
+              <div class=" feau_txt_sub_2 feau_txt_parl" data-aos="fade-left">
+                <h1>SED UT PERSPICIATIS</h1>
+                <h2>UNDE THIS</h2>
+                <a href="" class="animated-button">VIEW PROJECT</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="d-flex align-items-center">
+
+          <div class="fe_cont_sub" data-aos="fade-right">
+            <div class="h_line_txt h_line_txt_2 d-flex align-items-center gap-4 mt-5">
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>HOUSES</small>
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>DESIGN</small>
+              <small class="d-flex align-items-center gap-4"><span class="line line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</span>SKYSCRAPPER</small>
+            </div>
+            <div class="feau_txt">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/3.jpg" alt="">
+
+            <div class="feau_txt_sub feau_txt_parl" data-aos="fade-left">
+              <h1>SED UT PERSPICIATIS</h1>
+              <h2>UNDE THIS</h2>
+              <a href="" class="animated-button">VIEW PROJECT</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="int_count" data-aos="fade-up">
+          <h1 style="color: #000; opacity: 0.2;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>3</h1>
+          </div>
+
+        </div>
+
+        </div>
+
+        <hr class="hr" data-aos="fade-in">
+        <div class="text-center" data-aos="fade-in" onclick="viewProjectsExplore()">
+          <a href="#works" class="animated-button feau_view_btn">VIEW ALL PROJECTS</a>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="skills pad" data-aos="fade-up" id="Skills">
+
+      <div class="skill_sub">
+        <div class="skill_head">
+          <h1 class="d-flex gap-2 align-items-center" data-aos="fade-right">OUR <span>SKILLS</span></h1>
+
+          <div class="int_count int_count_2" data-aos="fade-up">
+            <h1 style="color: #fff; opacity: 0.3;font-weight: 700;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>4</h1>
+          </div>
+
+        </div>
+
+        <div class="">
+          <div class="skill_txt" data-aos="fade-right">
+            <p>Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations. All our projects incorporate a unique artistic image and functional solutions. Client is the soul of the project. Our main goal is to illustrate his/hers values and individuality through design.</p>
+          </div>
+          <div class="skill_sub_sub">
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">0%</div>
+                    </div>
+                </div>
+                <svg width="160" height="160">
+                    <circle class="bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="progress" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div class="name">DESIGN</div>
+            </div>
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">0%</div>
+                    </div>
+                </div>
+                <svg width="160" height="160">
+                    <circle class="bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="progress" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div class="name">ARCHITECTURE</div>
+            </div>
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">0%</div>
+                    </div>
+                </div>
+                <svg width="160" height="160">
+                    <circle class="bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="progress" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div class="name">CONSTRUCTION</div>
+            </div>
+        </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="team pad" data-aos="fade-up" id="Teams">
+      <div class="">
+        <div class="d-flex justify-content-between align-items-center" style="margin-bottom: -30px;">
+        <div class="fea_head team_head" data-aos="fade-right">
+          <h1>OUR FANTASTIC <span>TEAM</span></h1>
+        </div>
+        <div class="int_count int_count_2" data-aos="fade-up" style="top: -45px;">
+          <h1 style="color: #000; opacity: 0.3;font-weight: 700;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>5</h1>
+        </div>
+      </div>
+
+
+
+        <div class="team_main">
+
+          <div class="team_sub" data-aos="fade-right">
+
+            <div class="team_img" >
+              <img src="https://monolit.kwst.net/site/images/team/small/1.jpg" alt="">
+              <div class="team_social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team_txt">
+              <h2>Mila Slavko</h2>
+              <pre>CEO - MAIN ARCHITECT</pre>
+            </div>
+
+          </div>
+
+          <div class="team_sub" data-aos="fade-up">
+
+            <div class="team_img" >
+              <img src="https://monolit.kwst.net/site/images/team/small/2.jpg" alt="">
+              <div class="team_social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team_txt">
+              <h2>Austin Evon</h2>
+              <pre>CO-MANAGER ASSOCIATED</pre>
+            </div>
+
+          </div>
+
+          <div class="team_sub" data-aos="fade-right">
+
+            <div class="team_img">
+              <img src="https://monolit.kwst.net/site/images/team/small/3.jpg" alt="">
+              <div class="team_social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team_txt">
+              <h2>Mery Insi</h2>
+              <pre>ARCHITECT - DESIGNER</pre>
+            </div>
+
+          </div>
+
+          <div class="team_sub" data-aos="fade-right">
+
+            <div class="team_img">
+              <img src="https://monolit.kwst.net/site/images/team/small/4.jpg" alt="">
+              <div class="team_social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team_txt">
+              <h2>Jon Twist</h2>
+              <pre>ARCHITECT - DESIGNER</pre>
+            </div>
+
+          </div>
+
+          <div class="team_sub" data-aos="fade-up">
+
+            <div class="team_img">
+              <img src="https://monolit.kwst.net/site/images/team/small/6.jpg" alt="">
+              <div class="team_social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team_txt">
+              <h2>David Gray</h2>
+              <pre>PHOTOGRAPHER</pre>
+            </div>
+
+          </div>
+
+          <div class="team_sub" data-aos="fade-right">
+
+            <div class="team_img">
+              <img src="https://monolit.kwst.net/site/images/team/small/5.jpg" alt="">
+              <div class="team_social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team_txt">
+              <h2>Mery Spears</h2>
+              <pre>DESIGNER - PHOTOGRAPHER</pre>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="testi pad" data-aos="fade-up">
+      <div class="test_sub">
+        <div class="test_head">
+          <h2 data-aos="fade-right">TESTIMONIALS</h2>
+          <div class="int_count int_count_2 test_head_count" data-aos="fade-up">
+            <h1 style="color: #fff; opacity: 0.3;font-weight: 700;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>6</h1>
+          </div>
+
+        </div>
+        <div class="test_txt">
+          <h1 data-aos="fade-right">ANDY SMITH</h1>
+          <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, natus? Obcaecati deleniti odit aperiam expedita qui sequi perspiciatis non modi. Veritatis quas modi neque consequuntur, quidem quaerat doloremque dolorem et.</p>
+          <span data-aos="fade-right"><small class="h_line">&HorizontalLine;&HorizontalLine;&HorizontalLine; </small> VIA TWITTER</span>
+          <div class="angles" data-aos="fade-right">
+            <span><i class="fa-solid fa-chevron-left"></i></span><i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="what pad" data-aos="fade-up" id="services">
+      <div class="">
+        <div class="d-flex justify-content-between align-items-center">
+        <div class="abt_head what_head" data-aos="fade-right">
+          <h1>WHAT <span>WE DO</span></h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        </div>
+        <div class="int_count int_count_2 " data-aos="fade-up" style="top: -50px;">
+          <h1 style="color: #000; opacity: 0.3;font-weight: 700;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>7</h1>
+        </div>
+        </div>
+        <div class="what_sub">
+
+        <div class="" data-aos="fade-up">
+          <div class="what_img">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/3.jpg" alt="">
+            <h4 >INTERIOR</h4>
+          </div>
+        </div>
+
+        <div class="what_sub" data-aos="fade-up">
+          <div class="what_img">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/14.jpg" alt="">
+            <h4 >CONSTRUCTION</h4>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="what_sub">
+
+        <div class="">
+          <div class="what_img" data-aos="fade-up">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/13.jpg" alt="">
+            <h4 >ARCHITECTURE</h4>
+          </div>
+        </div>
+
+        <div class="what_sub" data-aos="fade-up">
+          <div class="what_img">
+            <img src="https://monolit.kwst.net/site/images/folio/thumbs/4.jpg" alt="">
+            <h4 >VISUALIZATION</h4>
+          </div>
+        </div>
+        
+      </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="partners pad pad_2" data-aos="fade-up">
+      <div class="part_main">
+        <div class="partners_head">
+          <div class="partners_head_sub" data-aos="fade-right">
+            <h1>OUR PARTNERS <span>AND</span></h1>
+            <h2>CLIENTS</h2>
+          </div>
+          <div class="int_count int_count_2 test_head_count part_head_count" data-aos="fade-up">
+            <h1 style="color: #fff; opacity: 0.3;font-weight: 700;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>8</h1>
+          </div>
+        </div>
+        <div class="part_txt" >
+          <p data-aos="fade-right">Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations. All our projects incorporate a unique artistic image and functional solutions. Client is the soul of the project. Our main goal is to illustrate his/hers values and individuality through design.</p>
+
+          <div class="part_img" data-aos="fade-up">
+            <img src="https://monolit.kwst.net/site/images/clients/1.png" alt="" data-aos="fade-up">
+            <img src="https://monolit.kwst.net/site/images/clients/2.png" alt="" data-aos="fade-up">
+            <img src="https://monolit.kwst.net/site/images/clients/3.png" alt="" data-aos="fade-up">
+            <img src="https://monolit.kwst.net/site/images/clients/4.png" alt="" data-aos="fade-up">
+            <img src="https://monolit.kwst.net/site/images/clients/5.png" alt="" data-aos="fade-up">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="where pad">
+      <div class="">
+        <div class="abt_head what_head" data-aos="fade-right">
+          <h1>Where to <span>Find us</span></h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        </div>
+        <div class="where_iframe" data-aos="zoom-in">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d735488.4974119059!2d-74.36077877351384!3d40.74980606659629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1722066409172!5m2!1sen!2sin"   style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="where_con_main">
+
+        <div class="where_con" data-aos="fade-up">
+
+          <h1 data-aos="fade-up">Contact details :</h1>
+
+          <div class="where_con_txt" data-aos="fade-up">
+            <h4>Office in New York</h4>
+            <p><a href="">27th Brooklyn New York, NY 10065</a></p>
+            <p><a href="">+7(111)123456789</a></p>
+            <p><a href="">yourmail@domain.com</a></p>
+          </div>
+
+          <div class="where_con_txt" data-aos="fade-up">
+            <h4>Find Us On :</h4>
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Twitter</a></p>
+            <p><a href="">Instagram</a></p>
+          </div>
+
+        </div>
+
+        <div class="where_form d-flex" data-aos="fade-right">
+          <form action="">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="E-Mail">
+          <input type="tel" placeholder="Phone">
+          <textarea name="" id="" placeholder="Message"></textarea>
+          <div class="text-left"></div>
+          <label>How many gnomes were in the story about the "Snow-white" ?</label><br>
+
+          <input type="text" class="short"><br>
+
+          <button type="submit" class="animated-button send">Send Message</button>
+          </form>
+
+          <div class="int_count int_count_2 test_head_count part_head_count form_count" data-aos="fade-up">
+            <h1 style="color: #000; opacity: 0.3;font-weight: 700;" class="d-flex"><span class="mx-2">0 <small><span>&dot;</span>&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</small></span>9</h1>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+
+
+    <section class="contact pad pad_3" data-aos="fade-up" id="contact">
+      <div class="cont_main">
+        <div class="cont_left" data-aos="fade-right">
+          <img src="https://monolit.kwst.net/site/images/footer-logo.png" alt="">
+          <p>Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations.Client is the soul of the project.</p>
+        </div>
+        <div class="cont_right_main" data-aos="fade-right">
+        <div class="cont_right" data-aos="fade-right">
+
+          <div class="cont_right_txt">
+          <h4><small class="h_line h_line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine; </small> CALL</h4>
+            <small><a href="">+7(111)123456789</a></small>
+            <small><a href="">+1(000)987654321</a></small>
+          </div>
+
+          <div class="cont_right_txt">
+            <h4><small class="h_line h_line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine; </small> WRITE</h4>
+              <small><a href="">yourmail@domain.com</a></small>
+              <small><a href="">email@website.com</a></small>
+            </div>
+
+            <div class="cont_right_txt">
+              <h4 ><small class="h_line h_line_2">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine; </small> VISIT</h4>
+                <small><a href="">USA 27TH BROOKLYN NY</a></small>
+                <small><a href=""> View on map </a></small>
+              </div>
+
+        </div>
+
+          <div class="copy" >
+            <h6>© Monolit 2024. All rights reserved.</h6>
+            <h6 class="top">TO TOP</h6>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+      
+    
+    
+
+
+
+
+
+
+     <!-- bootstrap cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+     <!-- aos animation script cdn -->
+    <script src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+     <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+
+      <!-- script linking -->
+     <script src="./1.js"></script>
+     
+</body>
+</html>
